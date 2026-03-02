@@ -9,7 +9,7 @@ The implementation relies on a fully connected neural network built with TensorF
 
 ---
 
-## 🎯 Project Goals
+## Project Goals
 - Develop a multi-class biometric classification model
 - Address dataset imbalance using weighted learning
 - Apply normalization and feature preprocessing
@@ -18,7 +18,7 @@ The implementation relies on a fully connected neural network built with TensorF
 
 ---
 
-## 📊 Data Description
+##  Data Description
 The dataset includes multiple biometric-derived attributes alongside a classification label.
 
 - **Predictor Variables:** Extracted biometric measurements
@@ -31,7 +31,7 @@ To improve modeling quality:
 
 ---
 
-## ⚙️ Tools and Libraries
+##  Tools and Libraries
 - Python
 - TensorFlow / Keras
 - Scikit-learn
@@ -43,7 +43,7 @@ To improve modeling quality:
 
 ---
 
-## 🧠 Model Design
+##  Model Design
 
 The classification model follows a layered feedforward neural network structure:
 
@@ -66,7 +66,7 @@ The classification model follows a layered feedforward neural network structure:
 
 ---
 
-## 🛡️ Model Stabilization Techniques
+##  Model Stabilization Techniques
 To enhance generalization and prevent overfitting, the following methods were applied:
 
 - Dropout regularization
@@ -77,7 +77,7 @@ To enhance generalization and prevent overfitting, the following methods were ap
 
 ---
 
-## 🚀 Implementation Workflow
+##  Implementation Workflow
 The development process included:
 
 - Data loading and inspection
@@ -90,7 +90,7 @@ The development process included:
 
 ---
 
-## 📈 Performance Results
+## Performance Results
 
 **Test Accuracy:** 88.7%  
 **Test Loss:** 0.446  
@@ -105,7 +105,7 @@ Evaluation metrics included:
 
 ---
 
-## 🔬 Forensic Relevance
+## Forensic Relevance
 
 The proposed system contributes to digital forensic workflows by:
 
@@ -114,7 +114,3 @@ The proposed system contributes to digital forensic workflows by:
 - Supporting analytical processing of biometric datasets
 - Reducing manual effort in forensic data examination
 
----
-
-## 📌 Intended Use
-This project is developed for academic and research purposes in the field of biometric analytics and digital forensics.
